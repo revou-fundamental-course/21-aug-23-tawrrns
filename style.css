@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+/* header */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    height: 50px;
+    align-items: center;
+    /* max-width: 1200px; */
+    padding: 30px;
+    padding-left: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    /* width: 40%; */
+    justify-content: space-between;
+    /* margin-right: 10px; */
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+
+header a:hover {
+	background-color: rgb(255,222,61)
+}
+
+
+/* main */
+.banner {
+    height: 578px;
+    background-color: black;
+    color: rgb(255,222,61); 
+}
+
+h1, h3 {
+    padding: 20px;
+}
+
+p {
+    padding: 0 20px;
+}
+
+.fac {
+    height: 800px;
+    background-color:  rgb(255,222,61); 
+}
+
+.fac img {
+    padding: 0 20px;
+}
+
+
+form {
+    padding: 20px;
+    
+}
+
+/* footer */
+footer {
+    direction: rtl;
+    background-color: black;
+    color: rgb(255,222,61); 
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+
+.autoSlide {
+    display: block;
+    width: 700px;
+    height: 400px;
+    padding: 0 20px;
+}
+
+h2 {
+    padding: 0 20px;
+}
+
